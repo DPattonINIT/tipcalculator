@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:SpaceMono ;
+  src: url(./font/SpaceMono/SpaceMono-Regular.ttf);
+}
+body{
+  background-color: hsl(185, 41%, 84%);
+}
+.titleText{
+  font-family: SpaceMono;
+  font-weight: 700;
+  padding-top: 60px;
+  color: hsl(186, 14%, 43%);
+}
+.calculator{
+  height: 490px;
+  width: 983px;
+  border-radius: 27px;
+}
+.billInput{
+  padding-left: 60px;
+  padding-top: 10px;  
+}
+.billContent{
+  
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  color: hsl(183, 100%, 15%);
+  font: SpaceMono;
+  font-weight: bold;
+  text-align: end;
+  font-size: 24px;
+}
+.dollarText{
+  color: hsl(183, 100%, 15%);
+  font: SpaceMono;
+  font-weight: bold;
+}
+.tipText{
+  font-family: SpaceMono;
+  font-weight: 700;
+  padding-left: 60px;
+  padding-top: 25px;
+  color: hsl(186, 14%, 43%);
+}
+.tipTitle{
+  font-family: SpaceMono;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-left: 60px;
+  color: hsl(186, 14%, 43%);
+}
+.label{
+  font-weight: bolder;
+}
+ .selectText{
+  font-family: SpaceMono;
+  font-weight: 700;
+  color: hsl(186, 14%, 43%);
+
+ }
+.tipbutton {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsl(183, 100%, 15%); 
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: SpaceMono;
+  font-weight: bolder;
+  font-size: 24px;
+  width: 130px;
+}
+
+.tipbutton:hover {
+  background-color: hsl(216, 12%, 84%); 
+}
+
+.tipbutton.active {
+  background-color: hsl(172, 67%, 45%); 
+  color: hsl(183, 100%, 15%);
+}
+.percentInput{
+  width: 130px;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+  font-family: SpaceMono;
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(183, 100%, 15%);
+}
+.resultContainer{
+  background-color: hsl(183, 100%, 15%); ;
+  
+}
+.peopleContent{
+  width: 40%;
+  background-color: hsl(189, 41%, 97%);
+  border: none;
+  color: hsl(183, 100%, 15%);
+  font: SpaceMono;
+  font-weight: bold;
+  text-align: end;
+  font-size: 24px;
+}
+.peopleText{
+  font-family: SpaceMono;
+  font-weight: 700;
+  padding-top: 30px;
+  color: hsl(186, 14%, 43%); 
+}
+.peopleInput{
+  background-color:hsl(189, 41%, 97%);
+  border: none;
+  text-align: right;
+  font-family: SpaceMono;
+  color: hsl(183, 100%, 15%);
+  font-size: 24px;
+  font-weight: 700;
+}
+.resultAmount{
+  font-family: SpaceMono;
+  font-weight: 700;
+  color: hsl(185, 41%, 84%);
+}
+.resultAmount2{
+  font-family: SpaceMono;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(185, 41%, 84%);
+}
+.sumAmount{
+  color: hsl(172, 67%, 45%);
+  font-family: SpaceMono;
+  font-size: 45px;
+}
+.resultTotal{
+  font-family: SpaceMono;
+  font-weight: 700;
+  color: hsl(185, 41%, 84%); 
+}
+.resultTotal2{
+  font-family: SpaceMono;
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(185, 41%, 84%);
+}
+.sumTotal{
+  color: hsl(172, 67%, 45%);
+  font-family: SpaceMono;
+  font-size: 45px;
+}
+.resetBtn{
+  background-color: hsl(172, 67%, 45%);
+  font-family: SpaceMono;
+  color: hsl(183, 100%, 15%);
+  font-weight: bolder;
+  transition: background-color 0.3s ease-in-out;
+}
+.resetBtn:hover {
+  background-color: hsl(216, 12%, 84%); 
+  cursor: pointer; 
+}
+
